@@ -11,9 +11,6 @@ local hide = "#2d2a32";
 
 vim.api.nvim_set_hl(0, "Normal", { fg = "#ffffff", bg = "#080008" })
 vim.api.nvim_set_hl(0, "Cursor", { fg = "#000000", bg = "#9e79fc" })
-vim.cmd([[set guicursor=n-v-c:block,i-ci-ve:ver25,
-        \r-n:hor100,cr:hor16,o:hor50,a:blinkwait1000-blinkoff5000-blinkon1-Cursor,
-        ]]);
 
 -- standouts
 vim.api.nvim_set_hl(0, "Comment", { fg = look, italic = true })
@@ -40,6 +37,7 @@ vim.api.nvim_set_hl(0, "@punctuation", { fg = text })
 vim.api.nvim_set_hl(0, "@lsp.type.punctuation", { fg = text })
 vim.api.nvim_set_hl(0, "@lsp.type.field", { fg = text })
 vim.api.nvim_set_hl(0, "@spell.gitcommit", { fg = text })
+vim.api.nvim_set_hl(0, "@spell.markdown", { fg = text })
 
 -- func/mutation
 vim.api.nvim_set_hl(0, "Function", { fg = func, italic = true })
