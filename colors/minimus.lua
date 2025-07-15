@@ -8,6 +8,7 @@ local look = "#eb1a51";
 local cons = "#95caee";
 local text = "#c4ced6";
 local hide = "#2d2a32";
+local shit = "#6b7178";
 
 vim.api.nvim_set_hl(0, "Normal", { fg = "#ffffff", bg = "#080008" })
 vim.api.nvim_set_hl(0, "Cursor", { fg = "#000000", bg = "#9e79fc" })
@@ -23,6 +24,9 @@ vim.api.nvim_set_hl(0, "Warning", { fg = look, bold = true })
 
 -- hidden
 vim.api.nvim_set_hl(0, "Whitespace", { fg = hide })
+
+-- low importance
+vim.api.nvim_set_hl(0, "CompileModeInfo", { fg = shit })
 
 -- typical
 vim.api.nvim_set_hl(0, "Identifier", { fg = text })
@@ -54,6 +58,8 @@ vim.api.nvim_set_hl(0, "@keyword", { fg = cons })
 vim.api.nvim_set_hl(0, "@lsp.type.keyword", { fg = cons })
 vim.api.nvim_set_hl(0, "@lsp.type.controlKeyword", { fg = cons })
 vim.api.nvim_set_hl(0, "@keyword.operator", { fg = cons })
+vim.api.nvim_set_hl(0, "CompileModeMessageRow", { fg = cons })
+vim.api.nvim_set_hl(0, "CompileModeMessageCol", { fg = cons })
 
 -- types
 vim.api.nvim_set_hl(0, "@type", { fg = type })
