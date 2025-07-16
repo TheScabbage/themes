@@ -1,4 +1,4 @@
-vim.highlight.priorities.semantic_tokens = 95
+--vim.highlight.priorities.semantic_tokens = 95
 vim.o.background = "dark"
 --vim.cmd("syntax off");
 
