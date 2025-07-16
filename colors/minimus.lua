@@ -3,6 +3,7 @@ vim.o.background = "dark"
 --vim.cmd("syntax off");
 
 local type = "#86ea99";
+local ref  = "#52fa5d";
 local func = "#a989dc";
 local look = "#eb1a51";
 local cons = "#95caee";
@@ -67,6 +68,7 @@ vim.api.nvim_set_hl(0, "Type", { fg = type })
 vim.api.nvim_set_hl(0, "@attribute", { fg = type })
 vim.api.nvim_set_hl(0, "@lsp.type", { fg = type })
 vim.api.nvim_set_hl(0, "@type.builtin", { fg = type })
+vim.api.nvim_set_hl(0, "@lsp.type.class", { fg = ref })
 
 -- Oil.nvim
 vim.api.nvim_set_hl(0, "OilDir", { fg = cons })
