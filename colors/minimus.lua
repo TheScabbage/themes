@@ -19,6 +19,7 @@ vim.api.nvim_set_hl(0, "Comment", { fg = look, italic = true })
 vim.api.nvim_set_hl(0, "@comment", { fg = look, italic = true })
 vim.api.nvim_set_hl(0, "@spell", { fg = look })
 vim.api.nvim_set_hl(0, "@lsp.type.xmlDocCommentText", { fg = look })
+vim.api.nvim_set_hl(0, "@string.escape", { fg = "#fab24d" })
 
 vim.api.nvim_set_hl(0, "Error", { fg = look, bold = true })
 vim.api.nvim_set_hl(0, "Warning", { fg = look, bold = true })
