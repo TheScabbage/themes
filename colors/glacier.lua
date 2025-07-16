@@ -2,11 +2,12 @@
 vim.o.background = "dark"
 --vim.cmd("syntax off");
 
-local type = "#51a9f0";
-local ref  = "#f26b2c";
-local func = "#d1c4ba";
+local type = "#7a96eb";
+local ref  = "#51a9f0";
+local func = "#c4ced6";
+--local func = "#ac75f0";
 local look = "#eb1a51";
-local cons = "#a69895";
+local cons = "#ac75f0";
 local text = "#c4ced6";
 local hide = "#2d2a32";
 local shit = "#6b7178";
