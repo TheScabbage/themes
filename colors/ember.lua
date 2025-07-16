@@ -2,11 +2,11 @@ vim.highlight.priorities.semantic_tokens = 95
 vim.o.background = "dark"
 --vim.cmd("syntax off");
 
-local type = "#68d6f7";
+local type = "#f78d40";
 local ref  = "#52fa5d";
-local func = "#f7a668";
+local func = "#d1c4ba";
 local look = "#eb1a51";
-local cons = "#89c4ad";
+local cons = "#a69895";
 local text = "#c4ced6";
 local hide = "#2d2a32";
 local shit = "#6b7178";
