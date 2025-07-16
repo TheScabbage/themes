@@ -3,7 +3,7 @@ vim.o.background = "dark"
 --vim.cmd("syntax off");
 
 local type = "#f78d40";
-local ref  = "#52fa5d";
+local ref  = "#ed7015";
 local func = "#d1c4ba";
 local look = "#eb1a51";
 local cons = "#a69895";
